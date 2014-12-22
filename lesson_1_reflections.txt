@@ -1,0 +1,64 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+	When you know a program was working before and it isn't working now, the
+	only thing that could have caused the bug is something that was changed.
+	In other words, a diff. So, it's very useful to only have to look at the
+	part(s) of the code that actually changed when bug hunting. It makes you
+	much more efficient especially as the size of the program scales.
+
+How could having easy access to the entire history of a file make you a more efficient
+programmer in the long term?
+
+	You save a little bit of time up front - you don't have to worry about saving
+	carefully and naming conventions if a program keeps the history for you. Moreover,
+	you get huge savings when you are looking for bugs in the latest version of the
+	code. You can also revert back to a previous version that you know works well if
+	you encounter issues too.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like
+you do in Git, vs having versions automatically saved, like Google docs does?
+
+	Pros: you have complete control of your history and so can create new commits only as
+	necessary. Coding can happen in fits and bursts so time/#lines of code changed aren't
+	great markers of progress. Instead, it is nice that the developer can overtly create
+	commits as they finish a chunk of work.
+
+	Cons: A good outcome is dependent on good developer behavior. The onus is on 
+	developers to commit code at the just the right time so that it's broken into small
+	enough chunks (though not too small).
+
+Why do you think some version control systems, like Git, allow saving multiple files in one
+commit, while others, like Google Docs, treat each file separately?
+	
+	Git is designed to do version control on code. Object oriented code especially and 
+	generally any professional code base at this point larger than a script is actually a 
+	system comprised of multiple files. So, it is useful to track all of these separate
+	files together. For FE programming, you're often changing an html, css, and possibly a
+	js file all at the same time. With BE code, you get into multiple files/instantiations
+	of a class. Google docs is built for simple documents and it doesn't necessarily make
+	sense to track changes across documents. Even for a large novel, you can simply have
+	one file with all of the chapters and apply changes across the entire page.
+
+How can you use the commands git log and git diff to view the history of files?
+
+	You can first dl a repository using git clone. Then, you go into the folder for the
+	repository and use the command 'git log'. This gives you a history of all the commits
+	for that repo. Once you do that and you a particular commit you're particularly
+	interested in investigating more, you use 'git diff old-commit-ID new-commit-ID' to get
+	the exact diffs.
+
+How might using version control make you more confident to make changes that could break
+something?
+
+	You know that you can confidently go back to a previously working version. This helps
+	me understand now how developers work on different versions of software and declare a
+	certain version "stable" while others are experimental. Having the experimental branch
+	out for some time lets lots of people test it and report bugs to improve it before it
+	gets declared as the next stable version.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+	Git will be the way I save code for all of my projects for this nano degree. Further, I
+	hope to be able to use it to use GitHub which can host web projects and also make it
+	easy to share code online. Also, I will use it to read diffs to try and find bugs.
