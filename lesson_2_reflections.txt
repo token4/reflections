@@ -10,3 +10,13 @@ How is the staging area different from the working directory and the repository?
 	servers as a draft before you are literally ready to 'commit'! This gives you more
 	control as you can add files one at a time to this particular commit and view/edit them
 	before you finish the action.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+	Even if you have made a couple of different logical changes, you can use the staging
+	area to split your work back up. The functionality of git that allows you to explicitly
+	choose which files to port over gives you another change to be explicit about logically
+	splitting up your commits. You can do 'git diff' which compares the directory to the
+	staging area to get a sense of what exactly has changed logically in this commit. Then,
+	you can go on and do the rest.
+
