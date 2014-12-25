@@ -36,7 +36,15 @@ How do the diagrams help you visualize the branch structure?
 	--graph --oneline branch1 branch2' to visualize the difference between branch1 and
 	branch2 easily.
 
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
-
-
+	When you merge two branches together, git automatically combines all of the files. Files
+	with no changes on either are easy - git just brings it forward. Files which were
+	removed in one branch and not in the other are retained and then files which were added
+	in one and not the other are retained as well. There are merge conflicts if a particular
+	file is affected in different ways by the two different branches you are trying to merge
+	together. Representing this in a diagram is helpful because you can see the last common
+	commit two branches had and also see the last unique commit one branch had. Then, you
+	can use commands like 'diff' and 'show' to figure out the differences if you want to
+	hunt down a bug or the introduction of a feature.
 
