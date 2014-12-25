@@ -4,7 +4,8 @@ What happens when you initialize a repository? Why do you need to do it?
 	and the folder is now ready for commits. Git does not save a commit into the history yet
 	You have to make your first commit before that happens.
 
-How is the staging area different from the working directory and the repository? What value do you think it offers?
+How is the staging area different from the working directory and the repository? What value
+do you think it offers?
 
 	The staging area is where you add files that you want to put into your next commit. It
 	servers as a draft before you are literally ready to 'commit'! This gives you more
@@ -20,3 +21,10 @@ How can you use the staging area to make sure you have one commit per logical ch
 	staging area to get a sense of what exactly has changed logically in this commit. Then,
 	you can go on and do the rest.
 
+What are some situations when branches would be helpful in keeping your history organized?
+How would branches help?
+
+	When you want to try a new experimental branch or when you start a new branch of code
+	altogether, having a new branch is obviously helpful. You can also use this to
+	explicitly name commits that are distinct such that you don't have to go through the
+	overhead of moving back and forth between various states.
