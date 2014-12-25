@@ -28,3 +28,15 @@ How would branches help?
 	altogether, having a new branch is obviously helpful. You can also use this to
 	explicitly name commits that are distinct such that you don't have to go through the
 	overhead of moving back and forth between various states.
+
+How do the diagrams help you visualize the branch structure?
+
+	Diagrams of branch history help you get a sense of the commonalities of a branch 
+	structure and easily visualize how they split off. You can use the command 'git log
+	--graph --oneline branch1 branch2' to visualize the difference between branch1 and
+	branch2 easily.
+
+
+
+
+
