@@ -48,3 +48,12 @@ What is the result of merging two branches together? Why do we represent it in t
 	can use commands like 'diff' and 'show' to figure out the differences if you want to
 	hunt down a bug or the introduction of a feature.
 
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+	As described in the above answer, Git does have some logic for automatically merging
+	two files. That said, it is limited and does not do too much guessing for you. This
+	especially applies in the case where both branches you are attempting to merge have been
+	changed and in different ways. In this case, you have to go in manually, read the code,
+	and resolve the merge diffs. This slows you down (con) but also gives you good control
+	and clarity into what you are doing/expecting (pro).
+
