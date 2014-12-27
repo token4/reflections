@@ -1,12 +1,27 @@
 When would you want to use a remote repository rather than keeping all your work local?
 
-When you want to share your work with colleagues, friends, or the open-source community
-to get feedback. Or, you could use a remote repository if you are working on different
-machines and are looking for a way to sync between them.
+	When you want to share your work with colleagues, friends, or the open-source
+	community to get feedback. Or, you could use a remote repository if you are working
+	on different machines and are looking for a way to sync between them.
 
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 
-More control over your work. You should always have a sense of how far along your public
-Git repostiory is compared to your local Git folders. On the flip side, you may have
-local commits that aren't complete and you don't want to share with others yet which is
-why it's useful to have control over remote pushes.
+	More control over your work. You should always have a sense of how far along your
+	public Git repostiory is compared to your local Git folders. On the flip side, you
+	may have local commits that aren't complete and you don't want to share with others
+	yet which is why it's useful to have control over remote pushes.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+	Fork: something you do only on Github to take an existing repository and bring it
+	to your Github account so that you can make changes to it. This gives the original
+	author credit for the work he/she had done up until that point, allows Github to
+	track stats, and makes it easier for you to suggest changes back to the original
+	author.
+
+	Clones: you can clone a repo locally or on Github. The idea is that you'd clone a
+	repo from Github locally to make changes or locally clone to start a new project
+	which is very similar to the original.
+
+	Branches: You can have branches of a repo locally or remotely. Branches are simply
+	labeled commits that help you keep track of changes.
