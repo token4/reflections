@@ -25,3 +25,9 @@ Describe the differences between forks, clones, and branches. When would you use
 
 	Branches: You can have branches of a repo locally or remotely. Branches are simply
 	labeled commits that help you keep track of changes.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+	This serves as a comparison point so you can see how many commits ahead of the remote
+	copy you are. Or, if you are collaborating, you can do a fetch request to get a sense
+	of how many commits your teammates have maded and how far off you are from their work.
