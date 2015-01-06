@@ -31,3 +31,13 @@ What is the benefit of having a copy of the last known state of the remote store
 	This serves as a comparison point so you can see how many commits ahead of the remote
 	copy you are. Or, if you are collaborating, you can do a fetch request to get a sense
 	of how many commits your teammates have maded and how far off you are from their work.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+	Without git, collaboration would involve saving multiple files (and actually sets of
+	files) each time a significant change is made. It would be harder to keep track of
+	changes and would involve a lot more communication and time spent together to sort out
+	changes. Diffs would be hard to know because you'd have two different files saved 
+	without a direct comparison between them. I'm really struggling to come up with things that would be easier but I guess the main thing is that collaborators would not have to
+	put in significant effort up front to get up to speed on Git/Github.
+
